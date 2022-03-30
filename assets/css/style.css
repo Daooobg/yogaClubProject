@@ -84,12 +84,10 @@ a { text-decoration: none;
 
 .logo {
     padding: 3rem;
-    display: inline-block;
     float: left;
 }
 
 .navigation__nav {
-    display: inline-block;
     padding: 3rem;
     float: right;
 }
@@ -104,7 +102,6 @@ a { text-decoration: none;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     letter-spacing: .6rem;
-    /* cursor: pointer; */
 }
 
 .video {
@@ -167,21 +164,13 @@ a { text-decoration: none;
 
 .heading-primary--main {
     display: block;
-    /* font-size: 4rem;
-    font-weight: 400;
-    letter-spacing: .5rem; */
 
-    animation-name: moveInLeft;
-    animation-duration: 2s;
-    animation-timing-function: ease-out;
+    animation: moveInLeft 2s ease-out;
     padding-bottom: 4rem;
 }
 
 .heading-primary--sub {
     display: block;
-    /* font-size: 4rem;
-    font-weight: 400;
-    letter-spacing: .5rem; */
 
     animation: moveInRight 2s ease-out;
 
