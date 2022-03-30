@@ -173,6 +173,20 @@ a { text-decoration: none;
     display: block;
 
     animation: moveInRight 2s ease-out;
+}
 
+.section__about {
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 60rem;
+    padding: 10rem 0;
+}
+.row {
+    max-width: 130rem;
+    margin: 0 auto;
+}
 
+.col-1-of-2 {
+    width: calc((100% - 6rem) / 2);
+    float: left;
 }
