@@ -11,3 +11,64 @@ li,
 ol {
     list-style: none;
 }
+
+html {
+    /* Font size is 10px (10px = 1rem) */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Cardo', serif;
+    box-sizing: border-box;
+    padding: 3rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+li,
+a { text-decoration: none;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: black;
+}
+
+/* Style h1,h2,h3 and paragraph */
+
+.heading-primary {
+    color: black;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: .5rem;
+    backface-visibility: hidden;
+    margin-bottom: 6rem;
+}
+
+.heading-secondary {
+    text-align: center;
+    padding-bottom: 5rem;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #ADE8F4, #0077B6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 2px;
+}
+
+.heading-tertiary {
+    font-size: 1.6rem;
+}
+
+.paragraph {
+    font-size: 1.4rem;
+}
