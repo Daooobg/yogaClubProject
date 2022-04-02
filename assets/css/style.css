@@ -178,26 +178,22 @@ a { text-decoration: none;
 .section__about {
     background-color: #f4f4f4;
     width: 100%;
-    
     padding: 10rem 0;
 }
 .row {
-    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    gap: 1rem;
     flex-wrap: wrap;
-    
-    margin: 0 auto;
 }
 
 .col{
-    width: 60rem;  
-    align-self: left;
+    width: 60rem;
+    height: 35rem;
 }
 
 
 .conteiner {
-    width: 100%;
     position: relative;
 }
 
