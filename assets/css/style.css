@@ -293,3 +293,39 @@ a { text-decoration: none;
     width: 100%;
     background-color: #f4f4f4;
 }
+
+.team-wrapper {
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.team__content {
+    width: 40rem;
+    height: 50rem;
+    position: relative;
+}
+
+.team__content-img {
+    width: 40rem;
+    height: 40rem;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.team-image {
+    height: 150%;
+    background-size: cover;
+}
+
+.team-image:hover {
+    transform: scale(1.3);
+    transition: all .5s;
+}
+
+.team-info {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
