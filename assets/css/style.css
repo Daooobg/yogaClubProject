@@ -175,6 +175,11 @@ a { text-decoration: none;
     animation: moveInRight 2s ease-out;
 }
 
+.active {
+    background-image: linear-gradient(to right,  #0077B6, #ADE8F4);
+    
+}
+
 .section__about {
     background-color: #f4f4f4;
     width: 100%;
