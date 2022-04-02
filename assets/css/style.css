@@ -287,3 +287,9 @@ a { text-decoration: none;
 .paragraph i {
     padding: 1rem;
 }
+
+.team {
+    padding: 10rem;
+    width: 100%;
+    background-color: #f4f4f4;
+}
