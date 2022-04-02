@@ -327,3 +327,14 @@ a { text-decoration: none;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.footer {
+    width: 100%;
+    background-image: linear-gradient(to right, #ADE8F4, #0077B6);
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
