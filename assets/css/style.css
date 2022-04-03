@@ -585,4 +585,14 @@ a { text-decoration: none;
     rgba(255, 255, 255, 0.9) 30%),
     url(../img/pexels-suzy-hazelwood-1302675.jpg);
     }
+    .signup-form {
+        left: 60%;
+    }
+    #massage {
+        width: 12rem;
+        height: 10rem;
+    }
+    #entry-level {
+        margin-right: 5rem;
+    }
 }
