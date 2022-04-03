@@ -457,7 +457,149 @@ a { text-decoration: none;
 
 
 
+@media screen and (max-width:1200px) {
+    body {
+        padding: 2rem;
+    }
+    li,a {
+        font-size: 1.4rem;
+    }
+    
+    .heading-primary {
+        font-size: 4rem;
+        letter-spacing: .4rem;
+    }
 
+    .heading-secondary {
+        font-size: 3rem;
+        letter-spacing: .2rem;
+    }
+
+    .heading-tertiary {
+        font-size: 2rem;
+    }
+
+    .paragraph {
+        font-size: 1.2rem;
+    }
+
+    .logo {
+        padding: 0;
+        margin: 1rem;
+
+    }
+
+    .navigation__logo  {
+        width: 80%;
+        height: 80%;
+    }
+
+    .navigation__nav {
+        padding: 1rem 0;
+    }
+
+    .navigation__item {
+        padding: 1rem 1rem;
+    }
+
+    .padding__bottom-large {
+        padding-bottom: 2.5rem;
+    }
+    
+    .padding__bottom-middle {
+        padding-bottom: 1.2rem;
+    }
+    
+    .padding__bottom-small {
+        padding-bottom: .7rem;
+    }
+
+    .section__about {
+        padding: 2rem 0;
+        padding-bottom: 10rem;
+    }
+    .col {
+        width: 60rem;
+        height: 30rem;
+    }
+    .conteiner--img {
+        width: 60%;
+    }
+    .section__about--img1 {
+        top: -1rem;
+        left: -1rem;
+    }
+
+    .section__about--img2 {
+        top: 1rem;
+        left: 30rem;
+    }
+    .section__about--img3 {
+        top: 14rem;
+        left: 0;
+    }
+
+    .section__about--img4 {
+        top: 15rem;
+        left: 32rem;
+    }
+
+    .section__events {
+        padding: 1rem 2rem;
+    }
+    .event__wrapper {
+        padding-bottom: 40rem;
+
+    }
+    .event__section {
+        height: 27rem;
+    }
+    .team {
+        padding: 2rem;
+        width: 100%;
+    }
+
+    .team__content {
+        width: 20rem;
+        height: 25rem;
+    }
+
+    .team__content-img {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .main__navigation {
+        height: 10rem;
+    }
+  
+    .yoga__class {
+        width: 35rem;
+    }
+
+    .gallery{
+        column-count: 3;
+    }
+
+    .contact {
+        height: 82vh;
+        background-image:linear-gradient(105deg, 
+    transparent 30%,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.9) 30%),
+    url(../img/pexels-suzy-hazelwood-1302675.jpg);
+    }
+    .signup-form {
+        left: 60%;
+    }
+    #massage {
+        width: 12rem;
+        height: 10rem;
+    }
+    #entry-level {
+        margin-right: 5rem;
+    }
+}
 
 @media screen and (max-width:900px) {
     body {
