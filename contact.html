@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Yoga club in Barking and Dagenham">
-        <meta name="keywords" content="Barking, Dagenham, Yoga, East London">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="shortcut icon" type="image/png" href="assets/img/icons8-yoga-60.png">
-        <title>B&D Yoga Club</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yoga club in Barking and Dagenham">
+    <meta name="keywords" content="Barking, Dagenham, Yoga, East London">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="assets/img/icons8-yoga-60.png">
+    <title>B&D Yoga Club</title>
+</head>
+
 <body>
     <header>
         <div class="main__navigation">
@@ -33,7 +35,35 @@
     </header>
     <main>
         <section class="contact">
-
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                <h2 class="heading-secondary">Contact Us</h2>
+                <br>
+                <label for="fname" class="heading-tertiary">First Name:</label>
+                <br>
+                <input class="heading-tertiary" id="fname" name="first_name" type="text" placeholder="First Name..."
+                    required>
+                <br>
+                <label class="heading-tertiary" for="lname">Last Name:</label>
+                <br>
+                <input class="heading-tertiary" id="lname" name="last_name" type="text" placeholder="Last Name..."
+                    required>
+                <br>
+                <label class="heading-tertiary" for="email">Email Address:</label>
+                <br>
+                <input class="heading-tertiary" type="email" id="email" name="email_address"
+                    placeholder="Email Address..." required>
+                <br>
+                <label class="heading-tertiary" for="massage">Massage:</label>
+                <br>
+                <textarea name="massage" id="massage" cols="30" rows="10" required></textarea>
+                <br>
+                <label class="heading-tertiary" for="entry-level">Entry level</label>
+                <input type="radio" id="entry-level" name="level" value="entry-level" required>
+                <label class="heading-tertiary" for="advanced-level">Advanced level</label>
+                <input type="radio" id="advanced-level" name="level" value="advanced-level" required>
+                <br>
+                <input class="submit-button heading-tertiary" type="submit" value="Submit">
+            </form>
         </section>
     </main>
     <footer class="footer">
@@ -77,4 +107,5 @@
     <script src="https://kit.fontawesome.com/e5b7fc4238.js" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
