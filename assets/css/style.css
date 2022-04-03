@@ -375,8 +375,10 @@ a { text-decoration: none;
 }
 
 .gallery__img:hover {
+    position: relative;
     transform: scale(1.1);
     transition: all .4s;
+    z-index: 10;
 }
 
 .classes {
