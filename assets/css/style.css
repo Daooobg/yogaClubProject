@@ -42,19 +42,23 @@ a { text-decoration: none;
 }
 
 /* Style h1,h2,h3 and paragraph */
+.padding__bottom-large {
+    padding-bottom: 6rem;
+}
 
+.padding__bottom-middle {
+    padding-bottom: 4rem;
+}
 .heading-primary {
     color: black;
     font-size: 4rem;
     font-weight: 700;
     letter-spacing: .5rem;
-    backface-visibility: hidden;
-    margin-bottom: 6rem;
+    backface-visibility: hidden;  
 }
 
 .heading-secondary {
     text-align: center;
-    padding-bottom: 5rem;
     font-size: 3.5rem;
     text-transform: uppercase;
     font-weight: 700;
@@ -94,7 +98,7 @@ a { text-decoration: none;
 
 .navigation__item {
     display: inline-block;
-    padding: 2rem;
+    padding: 0 2rem;
 }
 
 .navigation__link {
@@ -164,9 +168,7 @@ a { text-decoration: none;
 
 .heading-primary--main {
     display: block;
-
     animation: moveInLeft 2s ease-out;
-    padding-bottom: 4rem;
 }
 
 .heading-primary--sub {
