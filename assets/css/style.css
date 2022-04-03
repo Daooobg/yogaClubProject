@@ -345,3 +345,11 @@ a { text-decoration: none;
     justify-content: space-between;
     align-items: center;
 }
+
+
+
+.main__navigation {
+    text-align: center;
+    position: relative;
+    height: 30rem;
+}
