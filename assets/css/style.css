@@ -350,6 +350,7 @@ a { text-decoration: none;
     text-align: center;
     position: relative;
     height: 13rem;
+    background-color: #f4f4f4;
 }
 
 .gallery {
