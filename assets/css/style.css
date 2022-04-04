@@ -492,6 +492,29 @@ a { text-decoration: none;
         height: 35rem;
     }
 }
+
+@media screen and (max-width:900px) {
+    html {
+        /* Font size is 6px (6px = 1rem) */
+        font-size: 37.5%;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    .logo {
+        padding-right: 0;
+    }
+    
+    .navigation__logo {
+        width: 60%;
+    }
+
+    .gallery {
+        column-count: 3;
+    }
+}
 /* 
 
 @media screen and (max-width:1200px) {
