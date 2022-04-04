@@ -421,10 +421,12 @@ a { text-decoration: none;
     opacity: 0;
     transition: all .5s;
 }
-.yoga__class:hover .yoga__class--img{
+.yoga__class:hover .yoga__class--img,
+.yoga__class:active .yoga__class--img{
     filter: blur(3px) brightness(30%);
 }
-.yoga__class:hover .yoga__class--info {
+.yoga__class:hover .yoga__class--info,
+.yoga__class:active .yoga__class--info {
     transform: translate(-50%, -50%);
     opacity: 1;
     transition: all .5s;
