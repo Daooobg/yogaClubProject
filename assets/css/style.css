@@ -83,6 +83,11 @@ a { text-decoration: none;
     font-weight: 700;
 }
 
+.paragraph-secondary {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
 .text-center {
     text-align: center;
 }
@@ -197,18 +202,15 @@ a { text-decoration: none;
     justify-content: space-around;
     gap: 1rem;
     flex-wrap: wrap;
-    align-items: baseline;
+    align-items: center;
 }
 .section__about--col1 {
     /* width: 50%; */
-    flex:1;
+    flex: 1;
 }
 .section__about--col2{
     width: 60rem;
-}
-
-
-.section__about--conteiner {
+    height: 60rem;
     position: relative;
 }
 
@@ -224,21 +226,25 @@ a { text-decoration: none;
 .section__about--img1 {
     top: -1rem;
     left: 8rem;
+    /* transform: translate(-20%, -70%); */
 }
 
 .section__about--img2 {
     top: 0;
     left: 29rem;
+    /* transform: translate(-20%, -70%); */
 }
 
 .section__about--img3 {
     top: 14rem;
     left: 8rem;
+    /* transform: translate(-20%, -70%); */
 }
 
 .section__about--img4 {
     top: 14rem;
     left: 28rem;
+    /* transform: translate(-20%, -70%); */
 }
 
 .conteiner--img:hover {
@@ -410,6 +416,7 @@ a { text-decoration: none;
     border-radius: 3px;
     background-position: cover;
     box-shadow: 0 1rem 2rem rgb(0 0 0 / 80%);
+    
 }
 
 .yoga__class--info {
@@ -421,12 +428,10 @@ a { text-decoration: none;
     opacity: 0;
     transition: all .5s;
 }
-.yoga__class:hover .yoga__class--img,
-.yoga__class:active .yoga__class--img{
+.yoga__class:hover .yoga__class--img {
     filter: blur(3px) brightness(30%);
 }
-.yoga__class:hover .yoga__class--info,
-.yoga__class:active .yoga__class--info {
+.yoga__class:hover .yoga__class--info {
     transform: translate(-50%, -50%);
     opacity: 1;
     transition: all .5s;
@@ -543,17 +548,19 @@ a { text-decoration: none;
         padding-left: 0;
     }
     .row {
+        
         flex-direction: column;
-        /* align-items: center; */
-        align-items: center;
     }
-    .section__about {
-        height: 110rem;
-    }
+   
 
     .section__about--col1 {
+        width: 90%;
         padding-bottom: 5rem;
     }
+    .section__about--col2 {
+        height: 30rem;
+    }
+
     .event__wrapper {
         gap: 1rem;
     }
