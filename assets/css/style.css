@@ -555,7 +555,7 @@ a { text-decoration: none;
 
     .section__about--col1 {
         width: 90%;
-        padding-bottom: 5rem;
+        padding: 4rem 1rem;
     }
     .section__about--col2 {
         height: 30rem;
